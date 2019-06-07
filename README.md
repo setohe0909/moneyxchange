@@ -13,6 +13,9 @@ Currency exchange for Europe.
 yarn
 yarn start
 ```
+## Deploy 
+https://epic-murdock-f5243f.netlify.com/
+
 
 ## License
 

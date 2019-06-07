@@ -1,39 +1,21 @@
 import React, { Fragment } from 'react';
+import bg from '../assets/img/transfer_money.svg';
+
+import ConvertCurrency from './convert/Convert';
 
 const Main = () => (
   <Fragment>
-    <section className="section">
-      <div className="container">
-        <h1 className="title">Section Example</h1>
-        <h2 className="subtitle">
-          A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
-        </h2>
+    <section className="hero is-primary is-bold">
+      <div className="hero-body">
+        <div className="container">
+          <img src={bg} alt="background" width="300px" />
+          <h1 className="subtitle">Cambio de divisas 🤑🤑🤑</h1>
+        </div>
       </div>
     </section>
-    <section className="level is-mobile">
-      <div className="level-item has-text-centered">
-        <div>
-          <p className="heading">Tweets</p>
-          <p className="title">3,456</p>
-        </div>
-      </div>
-      <div className="level-item has-text-centered">
-        <div>
-          <p className="heading">Following</p>
-          <p className="title">123</p>
-        </div>
-      </div>
-      <div className="level-item has-text-centered">
-        <div>
-          <p className="heading">Followers</p>
-          <p className="title">456K</p>
-        </div>
-      </div>
-      <div className="level-item has-text-centered">
-        <div>
-          <p className="heading">Likes</p>
-          <p className="title">789</p>
-        </div>
+    <section className="section">
+      <div className="container">
+        <ConvertCurrency />
       </div>
     </section>
   </Fragment>
