@@ -18,3 +18,17 @@ body {
     width: 100%;
   }
 }
+
+.input-fields {
+  border: 1px solid $blue1;
+  padding: 10px;
+  width: 50%;
+}
+
+.btn-calculate {
+  background: $blue1;
+  color:$white1;
+  padding: 12px;
+  font-weight: 900;
+  width: 20%;
+}
