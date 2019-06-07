@@ -11,6 +11,7 @@
     "build": "parcel build index.html --public-url ./"
   },
   "dependencies": {
+    "components": "^0.1.0",
     "node-sass": "^4.7.2",
     "react": "^16.8.3",
     "react-dom": "^16.2.0",
@@ -22,7 +23,6 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/node": "^7.2.2",
-    "@babel/runtime": "^7.4.2",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
@@ -30,6 +30,7 @@
     "@babel/plugin-transform-runtime": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.4.2",
     "babel-core": "7.0.0-bridge.0",
     "core-js": "^3.0.0",
     "jest": "^24.8.0",
