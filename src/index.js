@@ -1,21 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './router';
+
+import { Provider } from 'react-redux';
+import configureStore from './redux/store/configureStore';
+
 import './assets/scss/app.scss';
-import Header from './components/Header';
 
-class HelloMessage extends React.Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <div className="container">
-          <h1>Hello {this.props.name}</h1>
-        </div>
-      </div>
-    );
-  }
-}
+const store = configureStore();
 
-let App = document.getElementById('app');
-
-ReactDOM.render(<HelloMessage name="seto" />, App);
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('app')
+);
