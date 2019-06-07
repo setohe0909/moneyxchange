@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
-import ParcelLogo from '../../assets/img/parcel-logo.svg';
+import Logo from '../../assets/img/logo.png';
+import bg from '../../assets/img/transfer_money.svg';
 
 const Header = () => (
   <Fragment>
@@ -7,15 +8,15 @@ const Header = () => (
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="/">
-            <img width="120" src={ParcelLogo} alt="" />
+            <img width="180" src={Logo} alt="logo" />
           </a>
         </div>
       </nav>
     </header>
-    <section className="hero is-medium is-primary is-bold">
+    <section className="hero is-primary is-bold">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title">Hero Section</h1>
+          <img src={bg} alt="background" width="300px" />
           <h2 className="subtitle">Basic Layout Skeleton using Bulma CSS Framework</h2>
         </div>
       </div>

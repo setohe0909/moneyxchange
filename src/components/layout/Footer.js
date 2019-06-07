@@ -1,5 +1,4 @@
 import React from 'react';
-import ParcelLogo from '../../assets/img/parcel-logo.svg';
 
 const Footer = () => (
   <footer className="footer">
