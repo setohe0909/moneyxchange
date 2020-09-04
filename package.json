@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "components": "^0.1.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "react": "^16.8.3",
     "react-dom": "^16.2.0",
     "react-redux": "^7.0.3",
